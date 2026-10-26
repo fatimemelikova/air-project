@@ -1,16 +1,64 @@
-# React + Vite
+Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu layihə istifadəçilərə hava haqqında məlumatları rahat və vizual şəkildə təqdim edən hava tətbiqidir. Tətbiqdə cari hava şəraitini, həftəlik hava proqnozunu və müxtəlif hava göstəricilərini görmək mümkündür.
 
-Currently, two official plugins are available:
+ İstifadə olunan texnologiyalar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+HTML5 — səhifənin strukturunun yaradılması
 
-## React Compiler
+CSS3 — dizayn, səhifə tərtibatı və responsiv görünüş
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JavaScript — interaktiv funksionallıq
 
-## Expanding the ESLint configuration
+React.js — komponent əsaslı istifadəçi interfeysinin hazırlanması
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite — layihənin sürətli başladılması və inkişaf mühitinin qurulması
+
+----------------------
+
+ Əsas xüsusiyyətlər
+
+ Cari hava şəraitinin göstərilməsi
+
+ Həftəlik hava proqnozu
+
+ Temperatur və digər hava göstəriciləri
+
+ Küləyin sürəti və istiqaməti haqqında məlumat
+
+ Rütubət göstəricisi
+
+ UV indeksi
+
+ Günəşin doğuş və batış saatları
+
+ Müxtəlif ekran ölçülərinə uyğun responsiv dizayn
+ 
+---------------------------------------------
+
+## 📁 Layihənin strukturu
+
+src/
+├── layout/
+│   └── Navbar.jsx
+├── weather/
+│   ├── Humidity.jsx
+│   ├── Visibility.jsx
+│   ├── WindStatus.jsx
+│   ├── Map.jsx
+│   ├── OtherCities.jsx
+│   ├── TodayCard.jsx
+│   └── WeeklyForecast.jsx
+│   └── Uvindex.jsx
+├── lib/
+│   └── Data.js
+├── public/
+├── App.jsx
+├── App.css
+└── main.jsx
+
+
+
+
+
+
