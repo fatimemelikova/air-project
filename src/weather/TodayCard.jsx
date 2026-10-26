@@ -4,7 +4,7 @@ import Uvindex from './Uvindex'
 import Humidity from './Humidity'
 import Map from './Map'
 import Visibility from './Visibility'
-import Othercities from '../Othercities'
+import Othercities from './Othercities'
 
 function TodayCard() {
   return (

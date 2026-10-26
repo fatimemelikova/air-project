@@ -1,5 +1,5 @@
 import React from 'react'
-import { othercities } from './lib/Data'
+import { othercities } from '../lib/Data'
 
 function Othercities() {
   return (
