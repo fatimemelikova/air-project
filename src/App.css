@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ font-family: "Montserrat", sans-serif;
+
+}
+body{
+ background-color: #111015;
+
+}
+nav{
+    
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.search-bar{
+    color: white;
+    gap: 10px;
+    width: 500px;
+    padding: 0 10px;
+    display: flex;
+    background-color: #1B1B1D;
+    border-radius: 10px;
+    align-items: center;
+}
+.search-bar input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.search-bar input::placeholder{
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icons img{
+   background-color: #1E1E1E;
+   border-radius: 50%;
+   padding: 10px;
+
+}
+.location{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.location img{
+    background-color: transparent;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mood-bar{
+    width: 90px;
+    background-color: #1B1B1D;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+
+}
+.mood-bar img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #D8E9F9;
+    border-radius: 50%;
+}
+
+.weekly-forecast{
+    padding: 50px 0;
+    max-width: 1396px;
+
+    display: flex;
+    gap: 35px;
+    margin: 0 auto;
+}
+.Friday{
+width: 250px;
+height: 226px;
+border-radius: 22px;
+overflow: hidden;
+font-weight: 600;
+background-color: #BBD7EC;
+}
+.Friday img{
+    width: 50px;
+    height: 50px;
+}
+.Friday .title{
+    height: 50px;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #AECADF;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-header h2{
+    font-size: 32px;
+}
+
+.content-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+.content-text{
+    padding: 20px 0;
+    display: flex;
+    font-weight: 400;
+
+    font-size: 14px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-text p{
+ margin: 3px 0;
+}
+.other-days{
+    display: flex;
+    gap: 10px;
+}
+.other-days .day{
+    width: 96px;
+    height: 226px;
+    background-color: #1B1B1D;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(104, 104, 104);
+}
+.today-cards{
+    padding: 30px 0;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+
+}
+.today-section{
+    max-width: 1390px;
+    margin: 0 auto;
+    color: white;
+    
+}
+.todaycard{
+    
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+   padding: 20px;
+    background-color: #1B1B1D;
+    color: white;
+}
+.todaycard img{
+    width: 100px;
+}
+.todaycard .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.todaycard .detail{
+    font-size: 11px;
+}
+.map{
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 510px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./public/Images.png);
+}
+.bottom-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.map h2{
+    background-color: rgba(200, 200, 200, 0.689);
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.map button{
+    width:200px;
+    padding: 30px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.othercities{
+    display: flex;
+
+    flex-direction: column;
+    gap: 13px;
+    padding: 0 10px;
+}
+.city-bar{
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #1B1B1D;
+    padding: 20px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.city-bar .contentt{
+    display: flex;
+    font-size: 15px;
+    gap: 10px;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.city-bar .contentt img{
+    width: 50px;
+
+}
+.countryname{
+    color: gray;
+}
+.cityname{
+    font-size: 20px;
+}
+.cityair{
+    font-size: 14px;
+}
